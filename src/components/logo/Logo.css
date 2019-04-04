@@ -1,0 +1,9 @@
+.Tilt {
+	  background: linear-gradient(89deg, #ff5edf 0%, #04c8de 100%);
+}
+.img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
