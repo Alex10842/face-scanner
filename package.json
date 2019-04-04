@@ -2,8 +2,10 @@
   "name": "smart-brain",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://alex10842.github.io/smart-brain",
   "dependencies": {
     "clarifai": "^2.9.0",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-particles-js": "^2.5.1",
@@ -12,6 +14,8 @@
     "tachyons": "^4.11.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
